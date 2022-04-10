@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITULO -->
+    <title>Unete al equipo</title>
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/e632a1da21.js" crossorigin="anonymous"></script>
+    <!-- ESTILOS -->
+    <link REL=StyleSheet HREF="../css/estilo.css" TYPE="text/css" MEDIA=screen>
+    <!-- TIPOGRAFIAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Orbitron:wght@500&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&family=Roboto+Mono:wght@300&family=Sansita+Swashed:wght@300&family=Smooch+Sans:wght@100&family=Supermercado+One&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- FLATICON -->
+    <link rel="icon" type="image/x-icon" href="../assets/img/nozzle.ico">
+</head>
+<!-- FIN HEAD -->
+
+<!-- BODY -->
+
+<body class="grid__container">
+    <!-- HEADER -->
+    <header class="header">
+        <!-- BARRA NOVEDADES -->
+        <div class="novedades">
+            Envios Gratis a todo el pais en compras superiores a $15000
+            <img src="../assets/img/ico/airplane.png" alt="Envío" class="ico3">
+        </div>
+        <!-- FIN BARRA NOVEDADES -->
+
+        <!-- HEADER PRINCIPAL -->
+        <div class="header--principal">
+            <!-- COLUMNA 1 -->
+            <div class="header__columna1">
+                <img src="../assets/img/logo_fv.png" alt="LOGO" class="logo">
+            </div>
+            <!-- COLUMNA 2 -->
+            <div class="header__columna2">
+                <h1 class="titulo--logo">GREEN HOLE</h1>
+                <h3 class="subtitulo--logo">Soluciones 3D</h3>
+                <!-- NAVEGADOR VERTICAL RESPONSIVE -->
+                <div class="menu">
+                    <i class="fa-solid fa-bars">
+                    <ul class="navegador__menu--responsive">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="quienes_somos.html">Quienes somos?</a></li>
+                        <li><a href="unete_al_equipo.html">Únete al equipo</a></li>
+                        <li><a href="ver_carrito.html">Ver carrito</a></li>
+                    </ul>
+                </i>
+                </div>
+                <!-- FIN NAVEGADOR VERTICAL RESPONSIVE -->
+            </div>
+            <!-- COLUMNA 3 -->
+            <div class="header__columna3">
+                <div>
+                    <a href="https://www.facebook.com/" target="_blanck"><img src="../assets/img/ico/facebook.ico" alt="Facebook" class="ico--header"></a>
+                    <a href="https://www.instagram.com/" target="_blanck"><img src="../assets/img/ico/instagram.ico" alt="Instagram" class="ico--header"></a>
+                    <a href="https://ar.pinterest.com/" target="_blanck"><img src="../assets/img/ico/pinterest.ico" alt="Pinterest" class="ico--header"></a>
+                </div>
+                <div>
+                    <input type="search" name="busqueda" value="Buscar en el sitio" class="header__search">
+                    <img src="../assets/img/ico/search.ico" alt="Busqueda" class="ico--search">
+                </div>
+            </div>
+        </div>
+        <!-- FIN HEADER PRINCIPAL -->
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- NAVEGADOR HORIZONTAL -->
+    <nav class="navegador">
+        <ul class="navegador__menu">
+            <li class="li"><a href="../index.html">Inicio</a></li>
+            <li class="menu__submenu">
+                <a href="productos.html">Productos</a>
+            </li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="quienes_somos.html">Quienes somos?</a></li>
+            <li><a href="#">Únete al equipo</a></li>
+            <li><a href="ver_carrito.html">Ver carrito</a></li>
+        </ul>
+    </nav>
+    <!-- FIN NAVEGADOR HORIZONTAL -->
+
+    <!-- CONTENEDOR -->
+    <main class="main main--formulario">
+        <article class="encabezado--formulario">
+            <h1>Únete al equipo</h1>
+            <br>
+            <p>Queres formar parte de nuestro equipo? llena el formulario o envíanos tu currículum por cualquiera de nuestros links de contacto. Te esperamos!</p>
+            <br>
+            <h4>Formulario</h4>
+        </article>
+
+        <section class="formulario">
+            <!--FORMULARIO -->
+            <form action="procesar.php" method?="post" class="">
+                <br>
+                <h4>Datos personales</h4>
+                <br>
+                <p>
+                    <label for="nombre">Nombres:</label>
+                    <input type="text" name="nombre" placeholder="nombres" class="textbox">
+                </p>
+                <br>
+                <p>
+                    <label for="apellido">Apellidos:</label>
+                    <input type="text" name="apellido" placeholder="apellidos" class="textbox">
+                </p>
+                <br>
+                <p>
+                    <label for="fnacimiento">Fecha de Nacimiento:</label>
+                    <input type="date" name="fnacimiento">
+                </p>
+                <br>
+                <p>
+                    <label for="email">E-Mail:</label>
+                    <input type="text" name="email" placeholder="E-mail" class="textbox">
+                </p>
+                <br>
+                <p>
+                    <label for="sexo">Sexo:</label> masculino
+                    <input type="radio" name="sexo"> Femenino
+                    <input type="radio" name="sexo">
+                </p>
+                <br>
+                <h4>Educación</h4>
+                <br>
+                <p>
+                    <label for="primario">Primario completo</label>
+                    <input type="checkbox" name="primario">
+                </p>
+                <br>
+                <p>
+                    <label for="secundario">Secundario completo</label>
+                    <input type="checkbox" name="secundario">
+                </p>
+                <br>
+                <p>
+                    <label for="terciario">Terciario Completo</label>
+                    <input type="checkbox" name="terciario">
+                </p>
+                <br>
+                <p>
+                    <label for="universitario">Universitario completo</label>
+                    <input type="checkbox" name="universitario">
+                </p>
+                <br>
+                <br>
+            </form>
+            <br>
+            <!--BOTONES-->
+            <div class="botonera">
+                <input type="reset" value="borrar todo" class="button button--formulario">
+                <input type="submit" value="Envíar" class="button button--formulario">
+                <input type="button" value="sin acciones" class="button button--formulario">
+            </div>
+        </section>
+    </main>
+    <!-- Whatsapp -->
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=+5491137560982" target="_blanck">
+            <img src="../assets/img/ico/whatsapp.ico" alt="prueba box-modeling" class="chat__whatsapp">
+        </a>
+    </div>
+    <!-- FIN Whatsapp -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer--principal">
+            <!-- columna 1 -->
+            <div class="footer__columna--izquierda">
+                <h3>Green Hole</h3>
+                <br>
+                <p>Somos una empresa familiar que se dedica desde hace unos años al diseño, producción, y venta de piezas y figuras en impresión 3D, con tecnología FDM y resinas UV de la mas alta calidad.</p>
+            </div>
+            <!-- columna 2 -->
+            <div class="footer__columna--centro">
+                <h3>Redes Sociales</h3>
+                <br>
+                <div>
+                    <a href="https://www.facebook.com/" target="_blanck">
+                        <img src="../assets/img/ico/facebook.ico" class="ico">
+                        <label>Seguinos en Facebook</label>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/" target="_blanck">
+                        <img src="../assets/img/ico/instagram.ico" class="ico">
+                        <label>Seguinos en Instagram</label>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <!-- para añadir a futuro -->
+                        <img src="../assets/img/ico/rss.ico" class="ico">
+                        <label>Seguinos en RSS</label>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://ar.pinterest.com/" target="_blanck">
+                        <img src="../assets/img/ico/pinterest.ico" class="ico">
+                        <label>Seguinos en Pinterest</label>
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/" target="_blanck">
+                        <img src="../assets/img/ico/youtube.ico" class="ico">
+                        <label>Seguinos en Youtube</label>
+                    </a>
+                </div>
+            </div>
+            <!-- columna 3 -->
+            <div class="footer__columna--derecha">
+                <h3>Información de contacto</h3>
+                <br>
+                <img src="../assets/img/ico/home.ico" class="ico">
+                <label>Av siempre Viva 742</label>
+            </div>
+        </div>
+        <div class="footer--inferior">
+            <h6>2022 ® Todos los derechos reservados</h6>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+</body>
+
+</html>
