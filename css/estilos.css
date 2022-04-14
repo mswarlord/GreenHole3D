@@ -8,6 +8,15 @@
   width: 2.5em;
 }
 
+.circle--img{
+  border-radius: 100%;
+  transition: 0.5s;
+}
+
+.circle--img:hover{
+  transform: scale(1.1);
+}
+
 .whatsapp-ico{
   position: fixed;
  bottom: 2em;
