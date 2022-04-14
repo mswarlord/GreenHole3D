@@ -77,10 +77,11 @@ body {
 
 .main {
     grid-area: main;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     padding-top: 2em;
     padding-bottom: 2em;
+    background: radial-gradient(circle, rgba(13,142,13,1) 0%, rgba(255,255,255,1) 30%, rgba(201,247,194,1) 57%, rgba(127,226,122,0.8855742125951943) 90%);
 }
 
 .main__seccion {
@@ -137,7 +138,8 @@ main p {
     display: flex;
     height: 90%;
     width: 100%;
-    background-color: #a7ca74;
+    background-image: linear-gradient(90deg, #2faf21 0%, #1bb444 54%, #117347 84%, #274127 100%);;
+    
     ;
 }
 
@@ -479,6 +481,7 @@ h3 {
 .main--noticias {
     margin: 2em 2em;
     padding: 0;
+    
 }
 
 .grid--noticias {
@@ -529,7 +532,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 10%;
+    padding-left: 10%;
 }
 
 .formulario {
