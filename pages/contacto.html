@@ -4,9 +4,214 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Green Hole</title>
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../form//fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../form/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../form/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../form/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="../util.css">
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <!--===============================================================================================-->
 </head>
 <body>
-    
-</body>
+    <!-- CONTENEDOR -->
+    <div class="container-fluid header">
+        <!-- HEADER SUPERIOR -->
+        <div class="row header--superior bg-success text-center  bg-gradient">
+            <h5 class="small">Envío gratis en compras superiores a $10000</h5>
+        </div>
+        <!-- HEADER PRINCIPAL -->
+        <div class="row header--principal p-2 bg-success bg-opacity-75  bg-gradient">
+            <div class="col-2">
+                <img src="../assets/images/logo.png" alt="logo" class="img-fluid rounded-circle bg-black">
+            </div>
+            <div class="col-10">
+                <h5>GREENHOLE</h5>
+                <h6>Soluciones3d</h6>
+            </div>
+            <div class="visually-hidden">
+                col 3
+            </div>
+        </div>
+    </div>
+    <!-- NAVEGADOR BOOTSTRAP -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0">
+                <nav class="navbar navbar-expand-md navbar-light bg-success bg-gradient">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contáctanos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="ver_carrito.html">Ver carrito</a>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"></div>
+    <!------------------------------- FORMULARIO ------------------------------------------------------------------------->
+        <div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
+            <div class="container-contact3">
+                <div class="wrap-contact3">
+                    <form class="contact3-form validate-form">
+                        <span class="contact3-form-title">
+                            Contáctanos
+                        </span>
+                        <div class="wrap-contact3-form-radio">
+                            <div class="contact3-form-radio m-r-42">
+                                <input class="input-radio3" id="radio1" type="radio" name="choice" value="say-hi" checked="checked">
+                                <label class="label-radio3" for="radio1">
+                                    Saludarnos
+                                </label>
+                            </div>
+                            <div class="contact3-form-radio">
+                                <input class="input-radio3" id="radio2" type="radio" name="choice" value="get-quote">
+                                <label class="label-radio3" for="radio2">
+                                    Informar un problema
+                                </label>
+                            </div>
+                        </div>
+                        <div class="wrap-input3 validate-input" data-validate="Se requiere un nombre">
+                            <input class="input3" type="text" name="name" placeholder="Tu nombre">
+                            <span class="focus-input3"></span>
+                        </div>
+                        <div class="wrap-input3 validate-input" data-validate = "Se requiere un email válido: ejemplo@ejemplo.ext">
+                            <input class="input3" type="text" name="email" placeholder="Tu Email">
+                            <span class="focus-input3"></span>
+                        </div>
+                        <div class="wrap-input3 input3-select">
+                            <div>
+                                <select class="selection-2" name="servicio">
+                                    <option>En el diseño de la página</option>
+                                    <option>inconvenientes en tu compra</option>
+                                    <option>Producto dañado</option>
+                                    <option>Servicio Online</option>
+                                </select>
+                            </div>
+                            <span class="focus-input3"></span>
+                        </div>
+                        <div class="wrap-input3 input3-select">
+                            <div>
+                                <select class="selection-2" name="budget">
+                                    <option>opcion 1</option>
+                                    <option>opcion 2</option>
+                                    <option>opcion 3</option>
+                                    <option>opcion 4</option>
+                                </select>
+                            </div>
+                            <span class="focus-input3"></span>
+                        </div>
+                        <div class="wrap-input3 validate-input" data-validate = "Se requiere un mensaje">
+                            <textarea class="input3" name="message" placeholder="Escribe tu mensaje"></textarea>
+                            <span class="focus-input3"></span>
+                        </div>
+                        <div class="container-contact3-form-btn">
+                            <button class="contact3-form-btn">
+                                Envíar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="dropDownSelect1"></div>
+    <!--===============================================================================================-->
+        <script src="../form/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="../form/vendor/bootstrap/js/popper.js"></script>
+        <script src="../form/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+        <script src="../form/vendor/select2/select2.min.js"></script>
+        <script>
+            $(".selection-2").select2({
+                minimumResultsForSearch: 20,
+                dropdownParent: $('#dropDownSelect1')
+            });
+        </script>
+    <!--===============================================================================================-->
+        <script src="../form/js/main.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-23581568-13');
+    </script>
+    <!-- -----------------------------------------FIN FORMULARIO ----------------------------------------------------- -->
+        <div class="row">
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="row footer--principal bg-black text-success opacity-75 bg-gradient">
+            <div class="col-6 text-light">
+                <h5>GreenHole</h5>
+                <p class="text-success">Un emprendimiento familiar de diseño y producción 3d</p>
+            </div>
+            <div class="col-6 text-light">
+              <p>Síguenos en nuestras redes</p>
+              <a href="#" target="" class="text-decoration-none table-active text-success">
+                <p>
+                  <img src="../assets/iconos/whatsapp.ico" alt="whatsapp" class="gh-ico">
+                  Whatsapp
+                </p>
+              </a>
+              <a href="#" target="" class="text-decoration-none table-active text-success">
+                <p>
+                  <img src="../assets/iconos/facebook.ico" alt="facebook" class="gh-ico">
+                  Facebook
+                </p>
+              </a>
+              <a href="#" target="" class="text-decoration-none table-active text-success">
+                <p>
+                  <img src="../assets/iconos/instagram.ico" alt="instagram" class="gh-ico">
+                  Instagram
+                </p>
+              </a>
+              <a href="#" target="" class="text-decoration-none table-active text-success">
+                <p>
+                  <img src="../assets/iconos/youtube.ico" alt="youtube" class="gh-ico">
+                  Youtube
+                </p>
+              </a>
+            </div>
+            <div class="col-12 text-light">
+              Contacto
+            </div>
+        </div>
+        <div class="row footer--inferior bg-black bg-gradient text-light text-center">
+            <h7>GreenHole - Soluciones 3D | 2022 | Todos los derechos reservados</h7>
+        </div>
+    </div>
+    <img src="../assets/iconos/whatsapp.ico" alt="" class="whatsapp-ico">
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>

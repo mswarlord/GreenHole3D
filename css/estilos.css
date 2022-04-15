@@ -3,39 +3,28 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 .gh-ico{
   width: 2.5em;
 }
-
 .circle--img{
-  border-radius: 100%;
   transition: 0.5s;
 }
-
 .circle--img:hover{
   transform: scale(1.1);
 }
-
 .whatsapp-ico{
   position: fixed;
- bottom: 2em;
- right: 2em;
- width: 5em;
- border-radius: 100%;
-
+  bottom: 2em;
+  right: 2em;
+  width: 5em;
 }
-
 .tracking-in-contract-bck {
 	-webkit-animation: tracking-in-contract-bck 2s ease-in-out both;
-	        animation: tracking-in-contract-bck 2s ease-in-out both;
+  animation: tracking-in-contract-bck 2s ease-in-out both;
 }
-/* ----------------------------------------------
- * ----------------------------------------
- * animation tracking-in-contract-bck
- * ----------------------------------------
- */
- @-webkit-keyframes tracking-in-contract-bck {
+  @-webkit-keyframes tracking-in-contract-bck {
     0% {
       letter-spacing: 1em;
       -webkit-transform: translateZ(400px);
