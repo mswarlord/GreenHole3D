@@ -1,0 +1,33 @@
+/*ESTILOS GENERALES*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html {
+    height: auto;
+    width:100%;
+}
+body {
+    /* font-family: $fuente-primaria;*/
+    min-height: 100%;
+    background-image: url(../../assets/images/backgrounds/background--14.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* MOVER DE LUGAR */
+.circle--img{
+    transition: 0.5s;
+    &:hover{
+        transform: scale(1.1);} 
+}
+.gh-ico{
+    width: 2.5em;
+}
+/* fin mover de lugar*/
+
+
+/*FIN ESTILOS GENERALES*/

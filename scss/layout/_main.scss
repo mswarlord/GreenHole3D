@@ -1,0 +1,22 @@
+/* MAIN */
+.titulo--pagina{
+    color: aliceblue;
+}
+.main__columna--1{
+    background-image: url('../../assets/images/backgrounds/background--7.jpg');
+    background-size: cover;
+}
+
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            150px, 
+            1fr));
+    gap: 1rem;
+}
+.producto--imagen{
+    width: 100%;
+    height: auto;
+}

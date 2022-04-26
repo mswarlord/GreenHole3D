@@ -13,24 +13,45 @@
 <body>
     <!-- CONTENEDOR -->
     <div class="container-fluid header">
-        <!-- HEADER SUPERIOR -->
-        <div class="row header--superior bg-success text-center  bg-gradient">
-            <h5 class="small">Envío gratis en compras superiores a $10000</h5>
+
+      <!-- HEADER SUPERIOR -->
+        <div class="row">
+          <div class="col header--superior bg-black bg-gradient">
+            <a href="https://www.facebook.com/" target="_blanck"><img src="assets/iconos/facebook.svg" alt="facebook" class="header--icono block"></a>
+            <a href="https://www.youtube.com/" target="_blanck"><img src="assets/iconos/youtube.svg" alt="facebook" class="header--icono block"></a>
+            <a href="https://github.com/mswarlord/" target="_blanck"><img src="assets/iconos/github.svg" alt="facebook" class="header--icono"></a>
+            <a href="https://www.instagram.com" target="_blanck"><img src="assets/iconos/instagram.svg" alt="facebook" class="header--icono"></a>
+          </div>
         </div>
+
         <!-- HEADER PRINCIPAL -->
-        <div class="row header--principal p-2 bg-success bg-opacity-75  bg-gradient">
-            <div class="col-2">
-                <img src="assets/images/logo.png" alt="logo" class="img-fluid rounded-circle bg-black">
+        <div class="row header--principal p-2 bg-success bg-opacity-75">
+            <div class="col-3 col-md-2 col-xl-1 header__columna--1">
+              <div class="logo--css">
+                <div class="circulo1"></div>
+                <div class="circulo2"></div>
+                <div class="circulo3"></div>
+                <div class="circulo4"></div>
+                <div class="circulo5"></div>
+                <div class="circulo6"></div>
+                <div class="circulo7"></div>
+                <div class="circulo8"></div>
+                <div class="circulo9"></div>
+                <div class="circulo10"></div>
             </div>
-            <div class="col-10">
-                <h5>GREENHOLE</h5>
-                <h6>Soluciones3d</h6>
             </div>
-            <div class="visually-hidden">
-                col 3
+            <div class="col-6 col-md-8 col-xl-10 header__columna--2">
+
+                  <p class="header--titulo text-center"><strong>GREENHOLE</strong></p> 
+                  <p class="header--subtitulo text-center">Soluciones 3D</p>
+  
+            </div>
+            <div class="col-3 col-md-2 col-xl-1 header__columna--3">
+
             </div>
         </div>
     </div>
+
     <!-- NAVEGADOR BOOTSTRAP -->
     <div class="container-fluid">
         <div class="row">
@@ -62,57 +83,28 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-success bg-opacity-50  bg-gradient">
+    <div class="container-fluid bg-gradient">
         <div class="row pb-5">
             <div class="col-12 text-center p-3 font-monospace">
-                <h3>Bienvenidos!</h3>
+                <h1 class="titulo--pagina">Green Hole - Impresión 3D</h1>
             </div>
-            <div class="col-12 p-2 text-center">
-                <h4 class="tracking-in-contract-bck">Últimos proyectos!!!</h4>
+            <div class="col-12 p-2 text-center main__columna--1">
+                <h2 class="tracking-in-contract-bck text-success">Últimos proyectos</h2>
+                <ul class="proyectos">
+                  <li class="producto"><img src="assets/images/1.jpg" alt="" class="producto--imagen"></li>
+                  <li class="producto"><img src="assets/images/2.jpg" alt="" class="producto--imagen"></li>
+                  <li class="producto"><img src="assets/images/4.jpg" alt="" class="producto--imagen"></li>
+                  <li class="producto"><img src="assets/images/5.jpg" alt="" class="producto--imagen"></li>
+                  <li class="producto"><img src="assets/images/6.jpg" alt="" class="producto--imagen"></li>
+                  <li class="producto"><img src="assets/images/7.jpg" alt="" class="producto--imagen"></li>
+                </ul>
             </div>
-            <div class="col-0 col-sm-1 col-md-2 col-lg-3">
-            </div>
-            <!-- CARROUSEL -->
-            <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-                <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets/images/1.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item text-center">
-                        <img src="assets/images/2.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/images/3.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/images/4.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div>
-            <!-- Fin CARROUSEL -->
-            <div class="col-0 col-sm-1 col-md-2 col-lg-3">
-            </div>
+
         </div>
 
         <div class="row pb-5">
             <div class="col-12 p-2 text-center">
-                <h4 class="tracking-in-contract-bck">Lo mas vendido!</h4>
+                <h2 class="tracking-in-contract-bck">Lo mas vendido!</h2>
             </div>
             <div class="col-0 col-sm-1 col-md-2 col-lg-3">
             </div>

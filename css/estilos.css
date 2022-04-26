@@ -1,59 +1,260 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-.gh-ico{
-  width: 2.5em;
-}
-.circle--img{
-  transition: 0.5s;
-}
-.circle--img:hover{
-  transform: scale(1.1);
-}
-.whatsapp-ico{
+@charset "UTF-8";
+/* IMPORTS */
+/*
+novedades: #263b26;
+color-primario:#a7ca74;
+color-secundario:#6a7a2a;
+color-primario--alfa:#a7ca7422;
+color-secundario--alfa:#6a7a2a44;
+color-background: #f7fcf0;
+*/
+/*ESTILOS GENERALES*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+html {
+  height: auto;
+  width: 100%; }
+
+body {
+  /* font-family: $fuente-primaria;*/
+  min-height: 100%;
+  background-image: url(../../assets/images/backgrounds/background--14.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+/* MOVER DE LUGAR */
+.circle--img {
+  transition: 0.5s; }
+  .circle--img:hover {
+    transform: scale(1.1); }
+
+.gh-ico {
+  width: 2.5em; }
+
+/* fin mover de lugar*/
+/*FIN ESTILOS GENERALES*/
+.logo--css {
+  z-index: 1;
+  margin: 0em;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  /* Relación de aspecto 1:1 */
+  border-radius: 100%;
+  background-color: #002200;
+  overflow: hidden; }
+
+.circulo1 {
+  background-color: #113311;
+  width: 90%;
+  height: 90%;
+  left: 5%;
+  top: 5%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo2 {
+  background-color: #224422;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo3 {
+  background-color: #335533;
+  width: 70%;
+  height: 70%;
+  left: 15%;
+  top: 15%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo4 {
+  background-color: #446644;
+  width: 60%;
+  height: 60%;
+  left: 20%;
+  top: 20%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo5 {
+  background-color: #557755;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo6 {
+  background-color: #668866;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  top: 30%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo7 {
+  background-color: #779977;
+  width: 30%;
+  height: 30%;
+  left: 35%;
+  top: 35%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo8 {
+  background-color: #88aa88;
+  width: 20%;
+  height: 20%;
+  left: 40%;
+  top: 40%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo9 {
+  background-color: #99bb99;
+  width: 10%;
+  height: 10%;
+  left: 45%;
+  top: 45%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.circulo10 {
+  background-color: black;
+  width: 0%;
+  height: 0%;
+  left: 49.5%;
+  top: 49.5%;
+  position: absolute;
+  border-radius: 100%;
+  transition: ease-in-out 1s; }
+
+.logo--css:hover div {
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%; }
+
+/*FIN LOGO*/
+/* chat__whatsapp -------------------------------------*/
+.whatsapp-ico {
   position: fixed;
-  bottom: 2em;
-  right: 2em;
-  width: 5em;
-}
+  width: 3rem;
+  height: 3rem;
+  right: 2rem;
+  bottom: 2rem;
+  transition: 0.5s; }
+  .whatsapp-ico:hover {
+    transform: scale(1.5); }
+
+/* FIN chat__whatsapp -------------------------------------*/
+/*--------------- VARIABLES ---------------*/
+/* Colores */
+/* Fuentes */
+/*------------FIN VARIABLES-------------*/
 .tracking-in-contract-bck {
-	-webkit-animation: tracking-in-contract-bck 2s ease-in-out both;
-  animation: tracking-in-contract-bck 2s ease-in-out both;
-}
-  @-webkit-keyframes tracking-in-contract-bck {
-    0% {
-      letter-spacing: 1em;
-      -webkit-transform: translateZ(400px);
-              transform: translateZ(400px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
-  }
-  @keyframes tracking-in-contract-bck {
-    0% {
-      letter-spacing: 1em;
-      -webkit-transform: translateZ(400px);
-              transform: translateZ(400px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
-      opacity: 1;
-    }
-  }
-  
+  -webkit-animation: tracking-in-contract-bck 2s ease-in-out both;
+  animation: tracking-in-contract-bck 2s ease-in-out both; }
+
+@-webkit-keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+
+@keyframes tracking-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
+
+/* HEADER */
+.header--icono {
+  width: 2em;
+  height: 2em;
+  color: #444;
+  margin: 0.5em 1em 0.5em 1em;
+  transition: 0.3s; }
+  .header--icono:hover {
+    transform: scale(1.5); }
+
+.header--superior {
+  display: flex;
+  justify-content: center; }
+
+.header--titulo {
+  font-size: 3em;
+  color: #054105;
+  text-shadow: #444 5px 2px 0.1em; }
+
+.header--subtitulo {
+  font-size: 1.5em;
+  color: #054105;
+  text-shadow: #444 1px 1px 0.1em; }
+
+.header__columna--1 {
+  align-self: center; }
+
+.header__columna--2 {
+  z-index: 20; }
+
+/* MAIN */
+.titulo--pagina {
+  color: aliceblue; }
+
+.main__columna--1 {
+  background-image: url("../../assets/images/backgrounds/background--7.jpg");
+  background-size: cover; }
+
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem; }
+
+.producto--imagen {
+  width: 100%;
+  height: auto; }
+
+/* CARROUSEL */
+.contenedor--carrousel {
+  display: flex;
+  justify-content: center;
+  background-image: url(../assets/images/backgrounds/background--2.png);
+  background-size: cover;
+  padding: 1em; }
+
+/* FIN CARROUSEL */

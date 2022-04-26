@@ -1,0 +1,33 @@
+  /* HEADER */
+.header--icono{
+  width: 2em;
+  height: 2em;
+  color: #444;
+  margin: 0.5em 1em 0.5em 1em;
+  transition: 0.3s;
+  &:hover{
+    transform: scale(1.5);
+  }
+}
+.header--superior{
+  display: flex;
+  justify-content: center;
+}
+
+.header--titulo{
+  font-size: 3em;
+  color: $clrTitulo;
+  text-shadow: #444 5px 2px 0.1em;
+}
+.header--subtitulo{
+  font-size: 1.5em;
+  color: $clrTitulo;
+  text-shadow: #444 1px 1px 0.1em;
+}
+
+.header__columna--1{
+  align-self: center;
+}
+.header__columna--2{
+  z-index: 20;
+}

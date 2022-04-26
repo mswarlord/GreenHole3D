@@ -1,0 +1,21 @@
+/* IMPORTS */
+@import 'base/color';
+@import 'base/reset';
+@import 'components/logo';
+@import 'components/whatsapp';
+@import 'utilities/mixins';
+@import 'utilities/variables';
+@import 'components/animations';
+@import 'layout/header';
+@import 'layout/main';
+
+
+/* CARROUSEL */
+.contenedor--carrousel{
+    display: flex;
+    justify-content: center;
+    background-image: url(../assets/images/backgrounds/background--2.png);
+    background-size: cover;
+    padding: 1em;
+}
+/* FIN CARROUSEL */
