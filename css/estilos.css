@@ -15,7 +15,7 @@ html {
 body {
   /* font-family: $fuente-primaria;*/
   min-height: 100%;
-  background-image: url("/assets/images/backgrounds/background--6.jpg");
+  background-image: url("../assets/images/backgrounds/background--6.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -195,7 +195,7 @@ body {
     opacity: 1; } }
 
 .navegador {
-  background-image: url(/assets/images/backgrounds/stone--2.webp); }
+  background-image: url(../assets/images/backgrounds/stone--2.webp); }
 
 /* TARJETA PRODUCTOS */
 .producto__tarjeta {
