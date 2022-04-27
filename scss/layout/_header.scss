@@ -17,12 +17,12 @@
 .header--titulo{
   font-size: 3em;
   color: $clrTitulo;
-  text-shadow: #444 5px 2px 0.1em;
+  text-shadow: rgb(5, 224, 16) 0px 0px 0.2em;
 }
 .header--subtitulo{
   font-size: 1.5em;
   color: $clrTitulo;
-  text-shadow: #444 1px 1px 0.1em;
+  text-shadow: rgb(5, 224, 16) 0px 0px 0.2em;
 }
 
 .header__columna--1{
@@ -30,4 +30,32 @@
 }
 .header__columna--2{
   z-index: 20;
+}
+
+.letra--1:hover{
+  @include resaltado;
+}
+.letra--2:hover{
+  @include resaltado;
+}
+.letra--3:hover{
+  @include resaltado;
+}
+.letra--4:hover{
+  @include resaltado;
+}
+.letra--5:hover{
+  @include resaltado;
+}
+.letra--6:hover{
+  @include resaltado;
+}
+.letra--7:hover{
+  @include resaltado;
+}
+.letra--8:hover{
+  @include resaltado;
+}
+.letra--9:hover{
+  @include resaltado;
 }

@@ -1,6 +1,15 @@
 /*--------------- VARIABLES ---------------*/
+
+$font-sizes: (
+    s: 0.8em, 
+    m: 1em, 
+    l: 1.2em, 
+    xl: 1.5em, 
+    xxl: 2em, 
+    xxxl: 3em);
+
 /* Colores */
-$clrTitulo: #054105;
+$clrTitulo: #2fa825;
 $clrPrimario:#a7ca74;
 $clrSecundario:#6a7a2a;
 $clrContrastePrimario:#333333;
@@ -9,7 +18,10 @@ $clrPrimarioAlfa:#a7ca7422;
 $clrSecundarioAlfa:#6a7a2a44;
 $clrBackground: #c4d3af;
 $clrNovedades: #263b26;
+
 /* Fuentes */
+
 $fntPrimaria:'Roboto Mono', monospace;
 $fntSecundaria: 'Supermercado One', monospace;
+
 /*------------FIN VARIABLES-------------*/

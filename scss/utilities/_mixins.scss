@@ -1,5 +1,24 @@
-@mixin logo--circulo{
+@mixin logo__circulo{
     position: absolute;
     border-radius: 100%;
     transition: ease-in-out 1s;
+}
+@mixin logo__circulo--interno{
+    width: 90%;
+    height: 90%;
+    left:5%;
+    top: 5%;
+}
+@mixin grid--responsive{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            200px, 
+            1fr));
+    gap: 1rem;
+}
+@mixin resaltado{
+        color: rgb(19, 201, 19);
+        text-shadow: rgb(0, 255, 13) 0px 0px 0.2em;
 }
