@@ -1,3 +1,11 @@
 .navegador{
     background-image: url(../assets/images/backgrounds/stone--2.webp);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-item:hover{
+    text-shadow: rgb(5, 224, 16) 0px 0px 0.5em;
+    color: $clrTitulo;
 }

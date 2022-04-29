@@ -3,8 +3,7 @@
     color: aliceblue;
 }
 .main__columna--1{
-    background-image: url('assets/images/backgrounds/background--7.jpg');
-    background-size: cover;
+    min-height: 100vh;
 }
 .proyectos{
     @include grid--responsive;

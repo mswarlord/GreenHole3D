@@ -1,61 +1,29 @@
   /* HEADER */
-.header--icono{
-  width: 2em;
-  height: 2em;
-  color: #444;
-  margin: 0.5em 1em 0.5em 1em;
-  transition: 0.3s;
-  &:hover{
-    transform: scale(1.5);
-  }
-}
-.header--superior{
-  display: flex;
-  justify-content: center;
-}
-
-.header--titulo{
-  font-size: 3em;
-  color: $clrTitulo;
-  text-shadow: rgb(5, 224, 16) 0px 0px 0.2em;
-}
-.header--subtitulo{
-  font-size: 1.5em;
-  color: $clrTitulo;
-  text-shadow: rgb(5, 224, 16) 0px 0px 0.2em;
-}
-
-.header__columna--1{
-  align-self: center;
-}
-.header__columna--2{
-  z-index: 20;
-}
-
-.letra--1:hover{
-  @include resaltado;
-}
-.letra--2:hover{
-  @include resaltado;
-}
-.letra--3:hover{
-  @include resaltado;
-}
-.letra--4:hover{
-  @include resaltado;
-}
-.letra--5:hover{
-  @include resaltado;
-}
-.letra--6:hover{
-  @include resaltado;
-}
-.letra--7:hover{
-  @include resaltado;
-}
-.letra--8:hover{
-  @include resaltado;
-}
-.letra--9:hover{
-  @include resaltado;
+.header{
+  &--icono{
+    width: 2em;
+    height: 2em;
+    color: #444;
+    margin: 0.5em 1em 0.5em 1em;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.5);}}
+    &--superior{
+      display: flex;
+      justify-content: center;}
+    &--titulo{
+      font-size: 3em;
+      color: $clrTitulo;
+      text-shadow: rgb(5, 224, 16) 0px 0px 0.2em;
+      & .letra--{
+        &1:hover, &2:hover, &3:hover, &4:hover, &5:hover, &6:hover, &7:hover, &8:hover, &9:hover{
+          @include resaltado;}}}
+    &--subtitulo{
+      font-size: 1.5em;
+      color: $clrTitulo;
+      text-shadow: rgb(5, 224, 16) 0px 0px 0.2em;}
+    &__columna--1{
+    align-self: center;}
+    &__columna--2{
+      z-index: 20;}
 }

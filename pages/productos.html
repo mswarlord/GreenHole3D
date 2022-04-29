@@ -4,69 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Hole</title>
+    <!-- TITULO -->
+    <title>GreenHole - Productos</title>
+    <!-- SEO -->
+    <meta name="description" content="GreenHole3D, diseño y venta de artículos 3d de alta calidad. Una nueva forma de disfrutar tu hobbie">
+    <meta name="keywords" content="Impresión 3d, modelado 3d, diseño 3d, 3d model, 3d print, 3d modeling, hobbie">
     <!-- ESTILOS -->
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="../assets/iconos/favicon.png"/>
 </head>
 <body>
     <!-- CONTENEDOR -->
     <div class="container-fluid header">
         <!-- HEADER SUPERIOR -->
-        <div class="row header--superior bg-success text-center  bg-gradient">
-            <h5 class="small">Envío gratis en compras superiores a $10000</h5>
+        <div class="row">
+            <div class="col header--superior bg-black bg-gradient">
+                <a href="https://www.facebook.com/" target="_blanck"><img src="../assets/iconos/facebook.svg" alt="facebook" class="header--icono block"></a>
+                <a href="https://www.youtube.com/" target="_blanck"><img src="../assets/iconos/youtube.svg" alt="facebook" class="header--icono block"></a>
+                <a href="https://github.com/mswarlord/" target="_blanck"><img src="../assets/iconos/github.svg" alt="facebook" class="header--icono"></a>
+                <a href="https://www.instagram.com" target="_blanck"><img src="../assets/iconos/instagram.svg" alt="facebook" class="header--icono"></a>
+            </div>
         </div>
+        <!-- FIN HEADER SUPERIOR -->
         <!-- HEADER PRINCIPAL -->
-        <div class="row header--principal p-2 bg-success bg-opacity-75  bg-gradient">
-            <div class="col-2">
-                <img src="../assets/images/logo.png" alt="logo" class="img-fluid rounded-circle bg-black">
+        <div class="row header--principal p-2 bg-success bg-opacity-75 navegador">
+            <div class="col-3 col-md-2 col-xl-1 header__columna--1">
+                <!-- LOGO CSS -->
+                <div class="logo--css">
+                    <div class="circulo1"></div>
+                    <div class="circulo2"></div>
+                    <div class="circulo3"></div>
+                    <div class="circulo4"></div>
+                    <div class="circulo5"></div>
+                    <div class="circulo6"></div>
+                    <div class="circulo7"></div>
+                    <div class="circulo8"></div>
+                    <div class="circulo9"></div>
+                    <div class="circulo10"></div>
+                </div>
+                <!-- FIN LOGO CSS-->
             </div>
-            <div class="col-10">
-                <h5>GREENHOLE</h5>
-                <h6>Soluciones3d</h6>
+            <div class="col-6 col-md-8 col-xl-10 header__columna--2">
+                <p class="header--titulo text-center">
+                    <strong>
+                        <span class="letra--1">G</span><span class="letra--2">R</span><span class="letra--3">E</span><span class="letra--4">E</span><span class="letra--5">N</span><span class="letra--6">H</span><span class="letra--7">O</span><span class="letra--8">L</span><span class="letra--9">E</span>
+                    </strong>
+                </p> 
+                <p class="header--subtitulo text-center">Soluciones 3D</p>
             </div>
-            <div class="visually-hidden">
-                col 3
-            </div>
+            <div class="col-3 col-md-2 col-xl-1 header__columna--3"></div>
         </div>
     </div>
-    <!-- NAVEGADOR BOOTSTRAP -->
-    <div class="container-fluid">
+    <!-- FIN HEADER PRINCIPAL -->
+    <!-- NAVEGADOR HORIZONTAL BOOTSTRAP -->
+    <div class="container-fluid navegador">
         <div class="row">
             <div class="col p-0">
-                <nav class="navbar navbar-expand-md navbar-light bg-success bg-gradient">
+                <nav class="navbar navbar-expand-md navbar-dark navegador bg-opacity-25">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="../index.html">Inicio</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <a class="navbar-brand" href="#">Green Hole</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Productos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="noticias.html">Noticias</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contáctanos</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link" href="ver_carrito.html">Ver carrito</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Productos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contáctanos</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link" href="ver_carrito.html">Ver carrito</a></li>
                         </ul>
-                      </div>
+                        </div>
                     </div>
-                  </nav>
+                </nav>
             </div>
         </div>
     </div>
+    <!-- FIN NAVEGADOR HORIZONTAL BOOTSTRAP -->
     <div class="container-fluid bg-success bg-opacity-50  bg-gradient p-5 ">
         <div class="row pb-5">
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-4 ">
