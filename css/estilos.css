@@ -21,9 +21,9 @@ body {
 
 /* MOVER DE LUGAR */
 .circle--img {
-  transition: 0.5s; }
+  transition: 0.3s; }
   .circle--img:hover {
-    transform: scale(1.1); }
+    transform: scale(1.2); }
 
 .gh-ico {
   width: 2.5em; }
@@ -346,7 +346,6 @@ body {
 .header--icono {
   width: 2em;
   height: 2em;
-  color: #444;
   margin: 0.5em 1em 0.5em 1em;
   transition: 0.3s; }
   .header--icono:hover {
