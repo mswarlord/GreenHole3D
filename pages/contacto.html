@@ -45,7 +45,7 @@
         <!-- FIN HEADER SUPERIOR -->
         <!-- HEADER PRINCIPAL -->
         <div class="row header--principal p-2 bg-success bg-opacity-75 navegador">
-            <div class="col-3 col-md-2 col-xl-1 header__columna--1">
+            <div class="col-4 col-sm-3 col-md-2 col-xl-1 header__columna--1">
                 <!-- LOGO CSS -->
                 <div class="logo--css">
                     <div class="circulo1"></div>
@@ -61,15 +61,16 @@
                 </div>
                 <!-- FIN LOGO CSS-->
             </div>
-            <div class="col-6 col-md-8 col-xl-10 header__columna--2">
+            <div class="col-8 col-md-8 col-xl-10 header__columna--2">
                 <p class="header--titulo text-center">
                     <strong>
-                        <span class="letra--1">G</span><span class="letra--2">R</span><span class="letra--3">E</span><span class="letra--4">E</span><span class="letra--5">N</span><span class="letra--6">H</span><span class="letra--7">O</span><span class="letra--8">L</span><span class="letra--9">E</span>
+                        <span class="letra--1">G</span><span class="letra--2">R</span><span class="letra--3">E</span><span class="letra--4">E</span><span class="letra--5">N</span>
+                        <span class="letra--6">H</span><span class="letra--7">O</span><span class="letra--8">L</span><span class="letra--9">E</span>
                     </strong>
                 </p> 
                 <p class="header--subtitulo text-center">Soluciones 3D</p>
             </div>
-            <div class="col-3 col-md-2 col-xl-1 header__columna--3"></div>
+            <div class="col-0 col-sm-1 col-md-2 col-xl-1 header__columna--3"></div>
         </div>
     </div>
     <!-- FIN HEADER PRINCIPAL -->
@@ -102,7 +103,7 @@
     <div class="container-fluid"></div>
     <!------------------------------- FORMULARIO ------------------------------------------------------------------------->
         <div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
-            <div class="container-contact3 bg-success bg-opacity-25">
+            <div class="container-contact3">
                 <div class="wrap-contact3">
                     <form class="contact3-form validate-form">
                         <span class="contact3-form-title">
@@ -184,57 +185,45 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-23581568-13');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-23581568-13');
     </script>
     <!-- -----------------------------------------FIN FORMULARIO ----------------------------------------------------- -->
         <div class="row">
         </div>
     </div>
+    
+    <!-- FOOTER -->
     <div class="container-fluid footer">
-        <div class="row footer--principal bg-black text-success opacity-75 bg-gradient">
+        <div class="row footer--principal text-success pt-4">
             <div class="col-6 text-light">
-                <h5>GreenHole</h5>
-                <p class="text-success">Un emprendimiento familiar de diseño y producción 3d</p>
+                <p class="footer__titulo">GreenHole</p>
+                <p class="text-success">Un emprendimiento familiar de diseño y producción 3d pensado para dar solucion a tu hobbie</p>
             </div>
-            <div class="col-6 text-light">
-              <p>Síguenos en nuestras redes</p>
-              <a href="#" target="" class="text-decoration-none table-active text-success">
-                <p>
-                  <img src="../assets/iconos/whatsapp.ico" alt="whatsapp" class="gh-ico circle--img rounded-circle">
-                  Whatsapp
-                </p>
-              </a>
-              <a href="#" target="" class="text-decoration-none table-active text-success">
-                <p>
-                  <img src="../assets/iconos/facebook.ico" alt="facebook" class="gh-ico circle--img rounded-circle">
-                  Facebook
-                </p>
-              </a>
-              <a href="#" target="" class="text-decoration-none table-active text-success">
-                <p>
-                  <img src="../assets/iconos/instagram.ico" alt="instagram" class="gh-ico circle--img rounded-circle">
-                  Instagram
-                </p>
-              </a>
-              <a href="#" target="" class="text-decoration-none table-active text-success">
-                <p>
-                  <img src="../assets/iconos/youtube.ico" alt="youtube" class="gh-ico circle--img rounded-circle">
-                  Youtube
-                </p>
-              </a>
-            </div>
-            <div class="col-12 text-light">
-              Contacto
+            <div class="col-6 text-light pb-4">
+                <p class="footer__titulo">Síguenos en nuestras redes</p>
+                <a href="#" target="" class="text-decoration-none table-active text-success">
+                    <img src="../assets/iconos/whatsapp.ico" alt="whatsapp" class="gh-ico circle--img rounded-circle m-2">
+                </a>
+                <a href="#" target="" class="text-decoration-none table-active text-success">
+                    <img src="../assets/iconos/facebook.ico" alt="facebook" class="gh-ico circle--img rounded-circle m-2">
+                </a>
+                <a href="#" target="" class="text-decoration-none table-active text-success">
+                    <img src="../assets/iconos/instagram.ico" alt="instagram" class="gh-ico circle--img rounded-circle m-2">
+                </a>
+                <a href="#" target="" class="text-decoration-none table-active text-success">
+                    <img src="../assets/iconos/youtube.ico" alt="youtube" class="gh-ico circle--img rounded-circle m-2">
+                </a>
             </div>
         </div>
         <div class="row footer--inferior bg-black bg-gradient text-light text-center">
-            <h7>GreenHole - Soluciones 3D | 2022 | Todos los derechos reservados</h7>
+            <p class="footer--rights">GreenHole - Soluciones 3D | 2022 | Todos los derechos reservados</p>
         </div>
     </div>
+    <!-- FIN FOOTER -->
     <img src="../assets/iconos/whatsapp.ico" alt="" class="whatsapp-ico circle--img rounded-circle">
     <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>

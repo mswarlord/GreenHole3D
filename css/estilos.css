@@ -333,10 +333,15 @@ body {
 /* FIN TARJETA PRODUCTOS */
 /* BANNER */
 .main__banner {
-  background-image: url(/assets/images/backgrounds/background--2.png);
+  background-image: url(../assets/images/backgrounds/background--2.png);
   background-size: cover;
   height: 100vh; }
 
+/* CAROUSEL */
+.carousel-inner {
+  border-radius: 1em; }
+
+/* FIN CAROUSEL */
 /* HEADER */
 .header--icono {
   width: 2em;
@@ -372,7 +377,8 @@ body {
 
 /* MAIN */
 .titulo--pagina {
-  color: aliceblue; }
+  text-shadow: #05e010 0px 0px 0.5em;
+  color: antiquewhite; }
 
 .main__columna--1 {
   min-height: 100vh; }
@@ -385,6 +391,21 @@ body {
 .producto--imagen {
   width: 100%;
   height: auto; }
+
+/*   FOOTER    */
+.footer--principal {
+  background-image: url(../assets/images/backgrounds/stone--2.webp); }
+
+.footer__titulo {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-shadow: #05e010 0px 0px 0.5em;
+  color: #2fa825; }
+
+.footer--rights {
+  font-size: 0.8em;
+  margin: 0;
+  text-shadow: #05e010 0px 0px 0.5em; }
 
 /* CARROUSEL */
 .contenedor--carrousel {
