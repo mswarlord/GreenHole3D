@@ -12,26 +12,17 @@ html {
     width:100%;
 }
 body {
-    /* font-family: $fuente-primaria;*/
     min-height: 100%;
     background-image: url("../assets/images/backgrounds/background--6.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
-
 .brillant{
-    text-shadow: $brillant;
+    text-shadow: $brillant!important; /* PRUEBA FIX ERROR WEBHOST*/
 }
-/* MOVER DE LUGAR */
-.circle--img{
+.img--scaled{
     transition: 0.3s;
     &:hover{
         transform: scale(1.2);} 
 }
-.gh-ico{
-    width: 2.5em;
-}
-/* fin mover de lugar*/
-
-
 /*FIN ESTILOS GENERALES*/

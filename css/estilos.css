@@ -18,25 +18,20 @@ html {
   width: 100%; }
 
 body {
-  /* font-family: $fuente-primaria;*/
   min-height: 100%;
   background-image: url("../assets/images/backgrounds/background--6.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
 .brillant {
-  text-shadow: #05e010 0px 0px 0.2em; }
+  text-shadow: #05e010 0px 0px 0.2em !important;
+  /* PRUEBA FIX ERROR WEBHOST*/ }
 
-/* MOVER DE LUGAR */
-.circle--img {
+.img--scaled {
   transition: 0.3s; }
-  .circle--img:hover {
+  .img--scaled:hover {
     transform: scale(1.2); }
 
-.gh-ico {
-  width: 2.5em; }
-
-/* fin mover de lugar*/
 /*FIN ESTILOS GENERALES*/
 .logo--css {
   z-index: 1;
@@ -275,7 +270,7 @@ body {
     opacity: 1; } }
 
 .navegador {
-  background-image: url(../assets/images/backgrounds/stone--2.webp);
+  background-image: url("../assets/images/backgrounds/stone--2.webp");
   position: sticky;
   top: 0;
   z-index: 10; }
@@ -342,7 +337,7 @@ body {
 /* FIN TARJETA PRODUCTOS */
 /* BANNER */
 .main__banner {
-  background-image: url(../assets/images/backgrounds/background--2.png);
+  background-image: url("../assets/images/backgrounds/background--2.png");
   background-size: cover;
   height: 100vh; }
 
@@ -351,8 +346,8 @@ body {
   border-radius: 1em; }
 
 /* FIN CAROUSEL */
-.offcanvas {
-  background-image: url(../assets/images/backgrounds/stone--2.webp); }
+.canvas__bg {
+  background-image: url("../assets/images/backgrounds/stone--2.webp"); }
 
 .canvas__filtro {
   font-size: 1em; }
@@ -416,7 +411,7 @@ body {
 
 /*   FOOTER    */
 .footer--principal {
-  background-image: url(../assets/images/backgrounds/stone--2.webp); }
+  background-image: url("../assets/images/backgrounds/stone--2.webp"); }
 
 .footer__titulo {
   font-size: 1.2em;
@@ -428,6 +423,9 @@ body {
   font-size: 0.8em;
   margin: 0;
   text-shadow: #05e010 0px 0px 0.5em; }
+
+.footer--icono {
+  width: 2.5em; }
 
 /* NOTICIAS --------------------------------------------------*/
 .noticia__titulo {
@@ -441,7 +439,7 @@ body {
 .contenedor--carrousel {
   display: flex;
   justify-content: center;
-  background-image: url(../assets/images/backgrounds/background--2.png);
+  background-image: url("../assets/images/backgrounds/background--2.png");
   background-size: cover;
   padding: 1em; }
 

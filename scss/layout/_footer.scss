@@ -1,15 +1,16 @@
 /*   FOOTER    */
-.footer--principal{
-    background-image: url(../assets/images/backgrounds/stone--2.webp);
-}
-.footer__titulo{
-    font-size: map-get($map: $font-sizes, $key: l );
-    font-weight: 700;
-    text-shadow: rgb(5, 224, 16) 0px 0px 0.5em;
-    color: $clrTitulo;
-}
-.footer--rights{
-    font-size: map-get($map: $font-sizes, $key: s);
-    margin: 0;
-    text-shadow: rgb(5, 224, 16) 0px 0px 0.5em;
+.footer{
+    &--principal{
+        background-image: url('../assets/images/backgrounds/stone--2.webp');}
+    &__titulo{
+        font-size: map-get($map: $font-sizes, $key: l );
+        font-weight: 700;
+        text-shadow: rgb(5, 224, 16) 0px 0px 0.5em;
+        color: $clrTitulo;}
+    &--rights{
+        font-size: map-get($map: $font-sizes, $key: s);
+        margin: 0;
+        text-shadow: rgb(5, 224, 16) 0px 0px 0.5em;}
+    &--icono{
+    width: 2.5em;}
 }
