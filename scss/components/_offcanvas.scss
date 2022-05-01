@@ -1,0 +1,15 @@
+.offcanvas{
+    background-image: url(../assets/images/backgrounds/stone--2.webp);
+}
+
+.canvas__filtro{
+font-size: map-get($map: $font-sizes, $key: m);
+}
+.canvas__filtro__secundario{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+}
+.canvas__filtro__secundario--texto{
+    font-size: map-get($map: $font-sizes, $key: s);
+}

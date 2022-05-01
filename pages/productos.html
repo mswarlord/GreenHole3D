@@ -85,7 +85,87 @@
         </div>
     </div>
     <!-- FIN NAVEGADOR HORIZONTAL BOOTSTRAP -->
-    <div class="container-fluid p-5 ">
+    <button class="btn btn-outline-dark btn-sm m-4 brillant text-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Filtros
+    </button>
+    <h1 class="header--titulo text-center pb-5 tracking-in-contract-bck">PRODUCTOS</h1>
+
+    <!-- FILTROS -->
+    <div class="offcanvas offcanvas-start text-success" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <span class="offcanvas-title text-center text-success brillant" id="offcanvasExampleLabel">Filtros</span>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <ul>
+                    <li class="producto__filtro">
+                        <h2 class="canvas__filtro">PLA</h2>
+                        <ul>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Fantasía</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Histórico</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Scy-Fi</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Otros</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="producto__filtro">
+                        <h2 class="canvas__filtro">RESINA</h2>
+                        <ul>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Fantasía</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Histórico</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Scy-Fi</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                            <li>
+                                <label class="canvas__filtro__secundario">
+                                    <h3 class="canvas__filtro__secundario--texto">Otros</h3>
+                                    <input type="checkbox">
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-3">
+                <button type="button" class="btn btn-outline-dark">Aplicar Filtros</button>
+            </div>
+        </div>
+    </div>
+    <!-- FIN FILTROS -->
+    <div class="container-fluid">
         <div class="row pb-5">
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-4 ">
                 <img src="../assets/images/1.jpg" alt="" class="img-fluid rounded-circle circle--img">
@@ -122,9 +202,6 @@
             </div>
             <div class="col-6 text-light pb-4">
                 <p class="footer__titulo">Síguenos en nuestras redes</p>
-                <a href="#" target="" class="text-decoration-none table-active text-success">
-                    <img src="../assets/iconos/whatsapp.ico" alt="whatsapp" class="gh-ico circle--img rounded-circle m-2">
-                </a>
                 <a href="#" target="" class="text-decoration-none table-active text-success">
                     <img src="../assets/iconos/facebook.ico" alt="facebook" class="gh-ico circle--img rounded-circle m-2">
                 </a>

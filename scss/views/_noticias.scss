@@ -1,3 +1,8 @@
 /* NOTICIAS --------------------------------------------------*/
-
+.noticia__titulo{
+    font-size: map-get($map: $font-sizes, $key: xl);
+}
+.noticia__texto{
+    font-size: map-get($map: $font-sizes, $key: m);
+}
 /* FIN NOTICIAS -----------------------------------------*/
