@@ -1,1 +1,7 @@
-<?xml version="1.0" ?><svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><title/><path d="M480,208H308L256,48,204,208H32l140,96L118,464,256,364,394,464,340,304Z" style="fill:none;stroke:#000;stroke-linejoin:round;stroke-width:32px"/></svg>
+<?xml version="1.0" ?>
+<svg height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg">
+<title/>
+<path d="M480,208H308L256,48,204,208H32l140,96L118,464,256,364,394,464,340,304Z" 
+style="fill:none;stroke:#181;stroke-linejoin:round;stroke-width:32px"/>
+</svg>
+<!--Se modificó el color para que constraste con el fondo-->

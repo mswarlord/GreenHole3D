@@ -447,30 +447,38 @@ body {
 
 /* FIN NOTICIAS -----------------------------------------*/
 /* VER CARRITO -------------------------------------*/
+.carrito {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .carrito__contenedor {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: 'imagen imagen imagen imagen' 'widget widget widget widget' 'detalle detalle detalle detalle' 'resumen resumen resumen resumen';
+  grid-template-areas: 'imagen imagen imagen imagen' 'widget widget widget widget' 'detalle detalle detalle detalle';
   height: auto;
   min-width: 150px;
-  max-width: 500px;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  width: 90%;
+  border-radius: 1em;
+  overflow: hidden; }
 
 .carrito--imagen {
   grid-area: imagen;
-  width: 80%;
+  width: 100%;
   justify-self: center; }
   .carrito--imagen img {
     position: relative;
     width: 100%; }
 
 .carrito--detalle {
-  margin: 0.2em 0 0.2em 0;
+  margin: 0.2em 0 0 0;
   grid-area: detalle;
   min-height: 100px;
-  width: 80%;
-  height: auto;
+  width: 100%;
+  flex-grow: 1;
   justify-self: center;
   background-color: #22222288;
   padding: 0.5em 0 0 0.5em;
@@ -480,7 +488,7 @@ body {
   position: relative;
   grid-area: widget;
   display: flex;
-  width: 80%;
+  width: 100%;
   margin-top: 0.2em;
   height: 2em;
   justify-self: center;
@@ -492,8 +500,9 @@ body {
   .carrito--widget input {
     height: 1.5em;
     width: 2.8em;
+    transform: scale(1.5);
     background-color: #0000;
-    color: green;
+    color: #21c721;
     border-color: #00000000; }
   .carrito--widget .widgettooltip1:hover .widgettooltiptext1 {
     visibility: visible; }
@@ -505,19 +514,25 @@ body {
     .carrito--widget img:hover {
       transform: scale(0.8); }
 
-.carrito--articulo {
+.detalle--titulo {
   text-transform: uppercase;
   background-color: #111f;
   padding: 0.5em 1em 0.5em 1em;
   margin: -0.5em 0 0 -0.5em;
   text-align: center;
-  font-weight: 900; }
+  color: #13c913;
+  text-shadow: #00ff0d 0px 0px 0.2em;
+  font-weight: bold; }
+
+.detalle--texto {
+  margin-left: 1em;
+  color: #8ce08c; }
 
 .precio {
   text-transform: uppercase;
   background-color: #1117;
   padding: 0.5em 1em 0.5em 1em;
-  margin-right: 0.5em;
+  margin: 0 0 -0.2em -0.5em;
   text-align: center;
   font-weight: bold; }
 
@@ -525,14 +540,80 @@ body {
 .widgettooltiptext1,
 .widgettooltiptext2 {
   visibility: hidden;
+  display: block;
   position: absolute;
-  z-index: 5;
-  background-color: #111a;
+  z-index: 1;
+  background-color: #111e;
   text-align: center;
   border-radius: 6px;
-  padding: 0.1em 0.5em; }
+  padding: 0.1em 0.5em;
+  transform: translate(-1.4em, -3.8em); }
 
 /* FIN TOOLTIP*/
+/* RESUMEN*/
+.carrito__resumen {
+  min-width: 300px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1em;
+  padding: 1em 0 0 0;
+  border-radius: 1em;
+  overflow: hidden;
+  background-color: #0007;
+  color: #13c913;
+  text-shadow: #00ff0d 0px 0px 0.2em; }
+
+/* DETALLES */
+.resumen--detalle, .detalle__total {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1em 0 1em; }
+
+/* CUPON */
+.resumen--cupon {
+  display: flex;
+  flex-direction: column; }
+
+.input--cupon {
+  padding: 0.5em 0 0.5em 0;
+  text-align: center;
+  font-weight: bold;
+  color: #228822;
+  width: 100%;
+  border: 0;
+  background-color: #0003;
+  outline: none; }
+
+.button {
+  text-align: center;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  transition-duration: 0.4s;
+  background-color: white;
+  color: grey;
+  border: 2px solid #a7ca74;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%; }
+  .button:hover {
+    background-color: #a7ca74;
+    color: white; }
+
+/* FINALIZAR*/
+.detalle__total {
+  margin-top: 1em; }
+
+/* PRUEBA1 */
+.prueba1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+
 /* ---------- FIN VER CARRITO ---------- */
 /* CARROUSEL */
 .contenedor--carrousel {

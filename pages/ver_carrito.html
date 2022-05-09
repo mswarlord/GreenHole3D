@@ -86,47 +86,153 @@
     </div>
     <!-- FIN NAVEGADOR HORIZONTAL BOOTSTRAP -->
     <h1 class="header--titulo text-center p-5 tracking-in-contract-bck">CARRO DE COMPRAS</h1>
-    <div class="container-fluid bg-opacity-50 m-0 pb-5"> <!-- CONTENEDOR BOOTSTRAP -->
-        <div class="row"> <!-- PRIMER FILA -->
-            <div class="col-12 col-lg-8 col-xl-9">
-                <div class="row pt-2 pb-2">
-                    
-                    <div class="col-2 col-sm-12"></div>
-                    <div class="col-8 col-sm-4 col-xl-3">
-                        <img src="../assets/images/1.jpg" alt="joystickstand" class="img-fluid rounded-circle">
-                    </div>
-
-                    <div class="col-12 col-sm-8 col-xl-9">
-                        <div class="row">
-                            <div class="col-12 carrito__columna--detalles1 bg-black bg-opacity-25 text-white">
-                                <p>Casco BATMAN; ancho: 22cm; largo: 20cm; Alto: 30cm.</p>
-                                <p>Material PLA, altura de capa 0.12mm</p>
-                                <p>peso 220gr</p>
-                            </div>
-                            <div class="col-12 carrito__columna--detalles2 bg-black bg-opacity-25 text-light">
-                                <p>Otros detalles: NIL</p>
-                            </div>
-                            <div class="col-12 carrito__columna--cantidad bg-success bg-black bg-opacity-25">
-                                cantidad e iconos
-                            </div>
-                        </div>
-                    </div>
+    
+<!-- ELEMENTOS DEL CARRITO -->
+<ul class="prueba1">
+    <li>
+        <div class="carrito__contenedor"> <!-- 1er elemento del carrito -->
+            <div class="carrito--imagen">
+                <img src="../assets/images/9.jpg" alt="">
+            </div>
+            <div class="carrito--detalle">
+                <p class="detalle--titulo">Elfo montado en Fénix</p>
+                <p class="detalle--texto">Material: RESINA.
+                <br>Altura de capa: 0.02mm.
+                <br>Altura: 17cm.</p>
+                <p class="precio">Precio: $12.000.</p> 
+            </div>
+            <div class="carrito--widget">
+                <input type="number" min="1" placeholder="1">
+                <div class="widgettooltip1">
+                    <img src="../assets/iconos/trash.svg" alt="">
+                    <span class="widgettooltiptext1">Eliminar</span>
+                </div>
+                <div class="widgettooltip2">
+                    <img src="../assets/iconos/favorito.svg" alt="" >
+                    <span class="widgettooltiptext2">Favoritos</span>
                 </div>
             </div>
-
-            <!-- COLUMNA RESUMEN -->
-            <div class="col-12 col-lg-4 col-xl-3 pt-2 bg-danger bg-opacity-75">
-                <P>Articulos</P>
-                <p>Envío</p>
-                <p>Subtotal</p>
-                <p class="text-center">BOTON DESCUENTO</p>
-                <p>Descuento</p>
-                <p>TOTAL</p>
-                <p class="text-center">BOTON FINALIZAR COMPRA</p>
+        </div>
+    </li>
+    <li>
+        <div class="carrito__contenedor"> <!-- 2do elemento del carrito -->
+            <div class="carrito--imagen">
+                <img src="../assets/images/3.jpg" alt="">
             </div>
-            <!-- FIN COLUMNA RESUMEN -->
+            <div class="carrito--detalle">
+                <p class="detalle--titulo">BUSTO SAN MARTIN</p>
+                <p class="detalle--texto">
+                    Material: PLA - Pintado a mano.
+                    <br>Altura de capa: 0.12mm - Relleno: 5%.
+                    <br>Altura: 12cm.</p>
+                    <p class="precio">Precio: $3.500.
+                </p> 
+            </div>
+            <div class="carrito--widget">
+                <input type="number" min="1" placeholder="1">
+                <div class="widgettooltip1">
+                    <img src="../assets/iconos/trash.svg" alt="">
+                    <span class="widgettooltiptext1">Eliminar</span>
+                </div>
+                <div class="widgettooltip2">
+                    <img src="../assets/iconos/favorito.svg" alt="" >
+                    <span class="widgettooltiptext2">Favoritos</span>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="carrito__contenedor"> <!-- 3er elemento del carrito -->
+            <div class="carrito--imagen">
+                <img src="../assets/images/1.jpg" alt="">
+            </div>
+            <div class="carrito--detalle">
+                <p class="detalle--titulo">Casco BATMAN</p>
+                <p class="detalle--texto">
+                    Material: PLA.
+                    <br>Altura de capa: 0.12mm - Relleno: 15%.
+                    <br>Altura: 25cm.</p>
+                    <p class="precio">Precio: $4.000.
+                </p> 
+            </div>
+            <div class="carrito--widget">
+                <input type="number" min="1" placeholder="1">
+                <div class="widgettooltip1">
+                    <img src="../assets/iconos/trash.svg" alt="">
+                    <span class="widgettooltiptext1">Eliminar</span>
+                </div>
+                <div class="widgettooltip2">
+                    <img src="../assets/iconos/favorito.svg" alt="" >
+                    <span class="widgettooltiptext2">Favoritos</span>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="carrito__contenedor"> <!-- 4to elemento del carrito-->
+            <div class="carrito--imagen">
+                <img src="../assets/images/2.jpg" alt="">
+            </div>
+            <div class="carrito--detalle">
+                <p class="detalle--titulo">MACETA BABY GROOT</p>
+                <p class="detalle--texto">
+                    Material: PLA - Pintado a mano.
+                    <br>Altura de capa: 0.12mm - Relleno: 5%.
+                    <br>Altura: 20cm.</p>
+                    <p class="precio">Precio: $2.500.
+                </p> 
+            </div>
+            <div class="carrito--widget">
+                <input type="number" min="1" placeholder="1">
+                <div class="widgettooltip1">
+                    <img src="../assets/iconos/trash.svg" alt="">
+                    <span class="widgettooltiptext1">Eliminar</span>
+                </div>
+                <div class="widgettooltip2">
+                    <img src="../assets/iconos/favorito.svg" alt="" >
+                    <span class="widgettooltiptext2">Favoritos</span>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<!-- FIN ELEMENTOS -->
+<!-- RESUMEN DE COMPRA -->
+<div class="carrito__resumen">
+    <!-- SECCION RESUMEN -->
+    <div class="resumen--detalle">
+        <div class="detalle__subtotal--atributos">
+            <p>Cantidad de Articulos:</p>
+            <p>Envío:</p>
+            <p>Subtotal:</p>
+        </div>
+        <div class="detalle__subtotal--valores">
+            <p>4</p>
+            <p>$0,00</p>
+            <p>$15.500,00</p>
         </div>
     </div>
+    <!-- SECCION CUPON -->
+    <div class="resumen--cupon">
+        <input type="text" placeholder="Añadir cupon" class="input--cupon">
+        <input type="button" value="Aplicar cupón" class="button">
+    </div>
+    <!-- SECCION FINALIZAR COMPRA -->
+    <div class="resumen--finalizar">
+        <div class="detalle__total">
+            <div>
+                <p>Descuento:</p>
+                <p>TOTAL:</p>
+            </div>
+            <div>
+                <p>$00,00</p>
+                <p>$15.500,00</p>
+            </div>
+        </div>
+        <input type="button" value="FINALIZAR" class="button">
+    </div>
+</div>
+<!-- FIN RESUMEN -->
     <!-- FOOTER -->
     <div class="container-fluid footer">
         <div class="row footer--principal text-success pt-4">
