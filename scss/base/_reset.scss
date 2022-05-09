@@ -7,6 +7,19 @@
     list-style: none;
     box-sizing: border-box;
 }
+.col-xs-0,
+.col-sm-0,
+.col-md-0,
+.col-lg-0,
+.col-xl-0,
+.col-xxl-0{
+    flex: 0 0 0;
+    max-width: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
 html {
     height: auto;
     width:100%;
@@ -20,6 +33,7 @@ body {
 .brillant{
     text-shadow: $brillant!important; /* PRUEBA FIX ERROR WEBHOST*/
 }
+
 .img--scaled{
     transition: 0.3s;
     &:hover{

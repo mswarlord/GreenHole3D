@@ -1,4 +1,96 @@
 
   /* VER CARRITO -------------------------------------*/
-  
+
+  .carrito__contenedor{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:  'imagen imagen imagen imagen'
+                          'widget widget widget widget'
+                          'detalle detalle detalle detalle'
+                          'resumen resumen resumen resumen';
+    height: auto;
+    min-width: 150px;
+    max-width: 500px;
+    margin-bottom: 1em;
+  }
+
+  .carrito--imagen{
+    grid-area: imagen;
+    width: 80%;
+    justify-self: center;
+    img{
+      position: relative;
+      width: 100%;
+    }
+  }
+  .carrito--detalle{
+    margin: 0.2em 0 0.2em 0;
+    grid-area: detalle;
+    min-height: 100px;
+    width: 80%;
+    height: auto;
+    justify-self: center;
+    background-color: #22222288;
+    padding: 0.5em 0 0 0.5em;
+    color: rgb(105, 199, 105);
+  }
+  .carrito--widget{
+    position: relative;
+    grid-area: widget;
+    display: flex;
+    width: 80%;
+    margin-top: 0.2em;
+    height: 2em;
+    justify-self: center;
+    color: green;
+    background-color: #33ff3312;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1em 0 1em;
+    input{
+      height:1.5em;
+      width: 2.8em;
+      background-color: #0000;
+      color: green;
+      border-color: #00000000;}
+    .widgettooltip1:hover .widgettooltiptext1{
+        visibility: visible;}
+    .widgettooltip2:hover .widgettooltiptext2{
+      visibility: visible;}
+    img{
+      width: 2em;
+      height: 2em;
+      &:hover{
+        transform: scale(0.8);}}
+}
+.carrito--articulo{
+  text-transform: uppercase;
+  background-color: #111f;
+  padding: 0.5em 1em 0.5em 1em ;
+  margin: -0.5em 0 0 -0.5em;
+  text-align: center;
+  font-weight: 900;
+}
+
+.precio{
+  text-transform: uppercase;
+  background-color: #1117;
+  padding: 0.5em 1em 0.5em 1em ;
+  margin-right: 0.5em;
+  text-align: center;
+  font-weight: bold;
+}
+/* TOOLTIP */
+.widgettooltiptext1,
+.widgettooltiptext2{
+  visibility: hidden;
+  position: absolute; 
+  z-index: 5;
+  background-color: #111a;
+  text-align: center;
+  border-radius: 6px; 
+  padding: 0.1em 0.5em;
+}
+/* FIN TOOLTIP*/
 /* ---------- FIN VER CARRITO ---------- */
