@@ -557,7 +557,7 @@ body {
 /* FIN TARJETA PRODUCTOS */
 /* BANNER */
 .main__banner {
-  background-image: url("../assets/images/backgrounds/background--2.png");
+  background-image: url("../assets/images/backgrounds/background--2.jpg");
   background-size: cover;
   height: auto; }
 
@@ -568,7 +568,7 @@ body {
 .contenedor--carrousel {
   display: flex;
   justify-content: center;
-  background-image: url("../assets/images/backgrounds/background--2.png");
+  background-image: url("../assets/images/backgrounds/background--2.jpg");
   background-size: cover;
   padding: 1em; }
 
@@ -884,7 +884,7 @@ body {
 /* FIN CONTACTO -------------------------------------*/
 /* SECCION PRODUCTO.HTML */
 .masvendidos {
-  background-image: url("../assets/images/backgrounds/background--2.png");
+  background-image: url("../assets/images/backgrounds/background--2.jpg");
   background-size: cover;
   min-height: auto; }
 
