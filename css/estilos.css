@@ -625,7 +625,7 @@ body {
   color: antiquewhite; }
 
 .main__columna--1 {
-  min-height: 100vh; }
+  min-height: auto; }
 
 .proyectos {
   display: grid;
@@ -882,3 +882,10 @@ body {
   margin-right: 0.6em; }
 
 /* FIN CONTACTO -------------------------------------*/
+/* SECCION PRODUCTO.HTML */
+.masvendidos {
+  background-image: url(../assets/images/backgrounds/background--2.png);
+  background-size: cover;
+  min-height: auto; }
+
+/* FIN SECCION PRODUCTO.HTML */
