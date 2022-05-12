@@ -885,7 +885,7 @@ body {
 /* SECCION PRODUCTO.HTML */
 .masvendidos {
   background-image: url("../assets/images/backgrounds/background--2.jpg");
-  background-size: cover;
-  min-height: auto; }
+  min-height: auto;
+  background-size: cover; }
 
 /* FIN SECCION PRODUCTO.HTML */
