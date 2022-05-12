@@ -9,6 +9,8 @@
 }
 .proyectos{
     @include grid--responsive;
+    justify-items:center;
+    padding: 0;
 }
 .producto--imagen{
     width: 100%;
