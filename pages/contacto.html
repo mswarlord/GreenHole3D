@@ -13,20 +13,6 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
-    <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="../form//fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="../form/vendor/animate/animate.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="../form/vendor/css-hamburgers/hamburgers.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="../form/vendor/select2/select2.min.css">
-    <!--===============================================================================================-->
-        <link rel="stylesheet" type="text/css" href="../util.css">
-        <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <!--===============================================================================================-->
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="../assets/iconos/favicon.png"/>
 </head>
@@ -80,7 +66,7 @@
             <div class="col p-0">
                 <nav class="navbar navbar-expand-md navbar-dark navegador bg-opacity-25">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Green Hole</a>
+                        <a class="navbar-brand" href="#"></a><!-- aca irá el logo con JS -->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -99,102 +85,50 @@
         </div>
     </div>
     <!-- FIN NAVEGADOR HORIZONTAL BOOTSTRAP -->
-    
-    <div class="container-fluid"></div>
-    <!------------------------------- FORMULARIO ------------------------------------------------------------------------->
-        <div class="bg-contact3" style="background-image: url('images/bg-01.jpg');">
-            <div class="container-contact3">
-                <div class="wrap-contact3">
-                    <form class="contact3-form validate-form">
-                        <span class="contact3-form-title">
-                            Contáctanos
-                        </span>
-                        <div class="wrap-contact3-form-radio">
-                            <div class="contact3-form-radio m-r-42">
-                                <input class="input-radio3" id="radio1" type="radio" name="choice" value="say-hi" checked="checked">
-                                <label class="label-radio3" for="radio1">
-                                    Saludarnos
-                                </label>
-                            </div>
-                            <div class="contact3-form-radio">
-                                <input class="input-radio3" id="radio2" type="radio" name="choice" value="get-quote">
-                                <label class="label-radio3" for="radio2">
-                                    Informar un problema
-                                </label>
-                            </div>
+    <div class="col-12 p-1 bg-black bg-gradient"></div> <!-- Línea Divisoria -->
+    <div class="container-fluid bg-black bg-gradient bg-opacity-75">
+        <div class="row">
+            <div class="col-12 contenedor--flex">
+                <form action="" id="formulario" class="pt-5 pb-5">
+                    <h1 class="header--titulo tracking-in-expand text-center text-focus-in-hurry1 display-3">CONTÁCTANOS</h1>
+                    <div class="flex--evenly mt-5">
+                        <div class="form-goup brillant">
+                            <input type="radio" name="motivo" id="informe">
+                            <label for="informe">Informar un problema</label>
                         </div>
-                        <div class="wrap-input3 validate-input" data-validate="Se requiere un nombre">
-                            <input class="input3" type="text" name="name" placeholder="Tu nombre">
-                            <span class="focus-input3"></span>
+                        <div class="form-goup brillant">
+                            <input type="radio" name="motivo" id="saludo">
+                            <label for="saludo">Saludar</label>
                         </div>
-                        <div class="wrap-input3 validate-input" data-validate = "Se requiere un email válido: ejemplo@ejemplo.ext">
-                            <input class="input3" type="text" name="email" placeholder="Tu Email">
-                            <span class="focus-input3"></span>
-                        </div>
-                        <div class="wrap-input3 input3-select">
-                            <div>
-                                <select class="selection-2" name="servicio">
-                                    <option>En el diseño de la página</option>
-                                    <option>inconvenientes en tu compra</option>
-                                    <option>Producto dañado</option>
-                                    <option>Servicio Online</option>
-                                </select>
-                            </div>
-                            <span class="focus-input3"></span>
-                        </div>
-                        <div class="wrap-input3 input3-select">
-                            <div>
-                                <select class="selection-2" name="budget">
-                                    <option>opcion 1</option>
-                                    <option>opcion 2</option>
-                                    <option>opcion 3</option>
-                                    <option>opcion 4</option>
-                                </select>
-                            </div>
-                            <span class="focus-input3"></span>
-                        </div>
-                        <div class="wrap-input3 validate-input" data-validate = "Se requiere un mensaje">
-                            <textarea class="input3" name="message" placeholder="Escribe tu mensaje"></textarea>
-                            <span class="focus-input3"></span>
-                        </div>
-                        <div class="container-contact3-form-btn">
-                            <button class="contact3-form-btn">
-                                Envíar
-                            </button>
-                        </div>
-                    </form>
-                </div>
+                    </div>
+                    <div class="form-goup mt-3 mb-3 contenedor--flex">
+                        <input type="text" name="nombre" id="nombre" class="input1 brillant text-center" placeholder="Nombres">
+                    </div>
+                    <div class="form-goup mt-3 mb-3 contenedor--flex">
+                        <input type="text" name="apellido" id="apellido" class="input1 brillant text-center" placeholder="Apellidos">
+                    </div>
+                    <div class="form-goup mt-3 mb-3 contenedor--flex">
+                        <input type="text" name="email" id="email" class="input1 brillant text-center" placeholder="E-mail">
+                    </div>
+                    <div class="form-goup mt-3 mb-3 contenedor--flex">
+                        <input type="text" name="edad" id="edad" class="input1 brillant text-center" placeholder="Edad">
+                    </div>
+                    <div class="form-goup mt-5 mb-4 text-center brillant">
+                        <label for="mensaje">Dejanos tu mensaje</label><br>
+                        <textarea name="mensaje" id="mensaje" class="input2 mt-1"></textarea>
+                    </div>
+                    <div class="form-goup contenedor--flex brillant">
+                        <input type="checkbox" name="boletin" id="boletin" class="checkbox">
+                        <label for="boletin">Suscribirse al Boletín Semanal</label>
+                    </div>
+                    <div class="form-goup mt-4 contenedor--flex brillant">
+                        <input type="button" name="enviar" id="enviar" value="Envíar" form="formulario" class="button2">
+                    </div>
+                </form>
             </div>
         </div>
-        <div id="dropDownSelect1"></div>
-    <!--===============================================================================================-->
-        <script src="../form/vendor/jquery/jquery-3.2.1.min.js"></script>
-    <!--===============================================================================================-->
-        <script src="../form/vendor/bootstrap/js/popper.js"></script>
-        <script src="../form/vendor/bootstrap/js/bootstrap.min.js"></script>
-    <!--===============================================================================================-->
-        <script src="../form/vendor/select2/select2.min.js"></script>
-        <script>
-            $(".selection-2").select2({
-                minimumResultsForSearch: 20,
-                dropdownParent: $('#dropDownSelect1')
-            });
-        </script>
-    <!--===============================================================================================-->
-        <script src="../form/js/main.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-23581568-13');
-    </script>
-    <!-- -----------------------------------------FIN FORMULARIO ----------------------------------------------------- -->
-        <div class="row">
-        </div>
     </div>
-    
+    <div class="col-12 p-1 bg-black bg-gradient"></div> <!-- Línea Divisoria -->
     <!-- FOOTER -->
     <div class="container-fluid footer">
         <div class="row footer--principal text-success pt-4">

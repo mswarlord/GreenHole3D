@@ -31,7 +31,8 @@ body {
     background-attachment: fixed;
 }
 .brillant{
-    text-shadow: $brillant!important; /* PRUEBA FIX ERROR WEBHOST*/
+    text-shadow: $brillant!important;
+    color: rgb(75, 238, 75);
 }
 
 .img--scaled{

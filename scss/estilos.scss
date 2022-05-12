@@ -13,17 +13,7 @@
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
+@import 'views/index';
 @import 'views/noticias';
 @import 'views/ver_carrito';
-
-
-
-/* CARROUSEL */
-.contenedor--carrousel{
-    display: flex;
-    justify-content: center;
-    background-image: url('../assets/images/backgrounds/background--2.png');
-    background-size: cover;
-    padding: 1em;
-}
-/* FIN CARROUSEL */
+@import 'views/contacto';
